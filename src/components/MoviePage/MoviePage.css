@@ -10,8 +10,8 @@
 .movie-attrib-val{
     font-size: 14px;
     margin-left: 14px;
-    opacity: 75%;
-}
+    color: rgb(135, 143, 156)
+;}
 
 .movie-page-poster{
     width: 240px;

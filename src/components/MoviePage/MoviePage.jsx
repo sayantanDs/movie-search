@@ -19,11 +19,11 @@ class MoviePage extends Component {
 
     getApiMovieInfo(imdbid){
         const API_KEY = process.env.REACT_APP_OMDB_API_KEY;
-        fetch(`http://www.omdbapi.com/?i=${imdbid}&plot=full&apikey=${API_KEY}`)
+        fetch(`https://www.omdbapi.com/?i=${imdbid}&plot=full&apikey=${API_KEY}`)
         .then(response => {
             
             response.json().then((data)=>{
-                console.log("moviepage res:", data);
+                // console.log("moviepage res:", data);
                 if("Title" in data){
                     this.setState({movie: data});
                 }
@@ -86,7 +86,7 @@ class MoviePage extends Component {
 
 
     render() { 
-        console.log("page props: ", this.props);
+        // console.log("page props: ", this.props);
         let {movie} = this.state;
         // console.log("M:",movie);
         return ( 

@@ -11,13 +11,13 @@ class App extends Component
 
   componentDidMount(){
     this.setState({search_result: this.placeholder_movies});
-    console.log("Set state", this.state.search_result);
+    // console.log("Set state", this.state.search_result);
   }
 
   movieSearch = (title)=>{
     console.log("searched: ", title);
     const API_KEY = process.env.REACT_APP_OMDB_API_KEY;
-    fetch(`http://www.omdbapi.com/?s=${title}&apikey=${API_KEY}`)
+    fetch(`https://www.omdbapi.com/?s=${title}&apikey=${API_KEY}`)
     .then(response => {
       console.log("movieSearch res:", response.status);
         response.json().then((data)=>{

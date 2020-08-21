@@ -9,7 +9,7 @@ class MovieSearch extends Component
   renderMovieList()
   {
     let {search_result} = this.props;
-    console.log("rendering:", search_result);
+    // console.log("rendering:", search_result);
     if(search_result.Response == "False" || !("Search" in search_result))
     {
         return <h2 style={this.error_msg_style}>{("Error" in search_result)?search_result.Error:"Something went wrong! Try searching something else."}</h2>

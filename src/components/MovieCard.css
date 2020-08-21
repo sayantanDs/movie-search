@@ -27,7 +27,7 @@
 }
 .movie-card-subtitle{  
     font-size: 14px; 
-    opacity: 60%; 
+    color: rgba(40,45,60, 0.6); 
 }
   
 .movie-card-poster-wrapper{
