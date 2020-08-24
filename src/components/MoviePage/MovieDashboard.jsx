@@ -17,6 +17,7 @@ class MovieDashboard extends Component {
                 <DashboardRatings ratings={this.props.movie.Ratings}/>
 
                 <ul style={{listStyleType: "none", margin: "20px 0px 0px 0px", padding: "0"}}>
+                    <li>Language: {movie.Language}</li>
                     <li>Released: {movie.Released}</li>
                     <li>Rated: {movie.Rated}</li>
                     <li>Runtime: {movie.Runtime}</li>

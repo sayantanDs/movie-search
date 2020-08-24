@@ -7,10 +7,12 @@
     color: rgb(40,45,60);
     border-radius: 3px;
     box-shadow: 0px 10px 20px rgba(37, 42, 58, 0.23);
+    transition: box-shadow 0.35s, transform 0.35s;
 }
   
 .movie-card:hover{
-    box-shadow: 0px 10px 25px rgba(40, 45, 60, 0.45);
+    box-shadow: 0px 15px 35px rgba(40, 45, 60, 0.45);
+    transform: scale(1.04);
 }
 .movie-card-info{
     padding: 10px;
@@ -44,4 +46,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.link-nostyle, .link-nostyle:link{
+    text-decoration: none;
 }

@@ -31,7 +31,7 @@ class MovieCard extends Component
         return ( 
             <div className="movie-card">
                 <div className="movie-card-poster-wrapper">
-                <Link to={`/movie/${imdbID}`}>{this.getPoster()}</Link>
+                <Link className="link-nostyle" to={`/movie/${imdbID}`}>{this.getPoster()}</Link>
                 </div> 
                 <div className="movie-card-info">
                     <Link to={`/movie/${imdbID}`} className="movie-card-title">{Title}</Link>
