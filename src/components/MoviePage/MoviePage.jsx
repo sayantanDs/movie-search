@@ -117,49 +117,54 @@ class MoviePage extends Component {
                 </div>
             </div>
         );
-    }
-
-    // placeholder data for testing purposes
-    placeholder_movie = {
-        "Title": "Harry Potter and the Deathly Hallows: Part 2",
-        "Year": "2011",
-        "Rated": "PG-13",
-        "Released": "15 Jul 2011",
-        "Runtime": "130 min",
-        "Genre": "Adventure, Drama, Fantasy, Mystery",
-        "Director": "David Yates",
-        "Writer": "Steve Kloves (screenplay), J.K. Rowling (novel)",
-        "Actors": "Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe",
-        "Plot": "Harry, Ron, and Hermione continue their quest of finding and destroying the Dark Lord's three remaining Horcruxes, the magical items responsible for his immortality. But as the mystical Deathly Hallows are uncovered, and Voldemort finds out about their mission, the biggest battle begins and life as they know it will never be the same again.",
-        "Language": "English",
-        "Country": "UK, USA",
-        "Awards": "Nominated for 3 Oscars. Another 45 wins & 91 nominations.",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMjIyZGU4YzUtNDkzYi00ZDRhLTljYzctYTMxMDQ4M2E0Y2YxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-        "Ratings": [
-            {
-                "Source": "Internet Movie Database",
-                "Value": "8.1/10"
-            },
-            {
-                "Source": "Rotten Tomatoes",
-                "Value": "96%"
-            },
-            {
-                "Source": "Metacritic",
-                "Value": "85/100"
-            }
-        ],
-        "Metascore": "85",
-        "imdbRating": "8.1",
-        "imdbVotes": "739,625",
-        "imdbID": "tt1201607",
-        "Type": "movie",
-        "DVD": "11 Nov 2011",
-        "BoxOffice": "$381,000,185",
-        "Production": "Warner Bros. Pictures",
-        "Website": "N/A",
-        "Response": "True"
-    }
+    }    
 }
  
 export default MoviePage;
+
+
+
+
+
+
+// // placeholder data for testing purposes
+    // placeholder_movie = {
+    //     "Title": "Harry Potter and the Deathly Hallows: Part 2",
+    //     "Year": "2011",
+    //     "Rated": "PG-13",
+    //     "Released": "15 Jul 2011",
+    //     "Runtime": "130 min",
+    //     "Genre": "Adventure, Drama, Fantasy, Mystery",
+    //     "Director": "David Yates",
+    //     "Writer": "Steve Kloves (screenplay), J.K. Rowling (novel)",
+    //     "Actors": "Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe",
+    //     "Plot": "Harry, Ron, and Hermione continue their quest of finding and destroying the Dark Lord's three remaining Horcruxes, the magical items responsible for his immortality. But as the mystical Deathly Hallows are uncovered, and Voldemort finds out about their mission, the biggest battle begins and life as they know it will never be the same again.",
+    //     "Language": "English",
+    //     "Country": "UK, USA",
+    //     "Awards": "Nominated for 3 Oscars. Another 45 wins & 91 nominations.",
+    //     "Poster": "https://m.media-amazon.com/images/M/MV5BMjIyZGU4YzUtNDkzYi00ZDRhLTljYzctYTMxMDQ4M2E0Y2YxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+    //     "Ratings": [
+    //         {
+    //             "Source": "Internet Movie Database",
+    //             "Value": "8.1/10"
+    //         },
+    //         {
+    //             "Source": "Rotten Tomatoes",
+    //             "Value": "96%"
+    //         },
+    //         {
+    //             "Source": "Metacritic",
+    //             "Value": "85/100"
+    //         }
+    //     ],
+    //     "Metascore": "85",
+    //     "imdbRating": "8.1",
+    //     "imdbVotes": "739,625",
+    //     "imdbID": "tt1201607",
+    //     "Type": "movie",
+    //     "DVD": "11 Nov 2011",
+    //     "BoxOffice": "$381,000,185",
+    //     "Production": "Warner Bros. Pictures",
+    //     "Website": "N/A",
+    //     "Response": "True"
+    // }
